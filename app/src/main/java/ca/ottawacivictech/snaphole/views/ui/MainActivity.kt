@@ -5,7 +5,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.FragmentTransaction
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import ca.ottawacivictech.snaphole.R
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +19,8 @@ class MainActivity : AppCompatActivity() {
         val REQUEST_VALUE = resources.getInteger(R.integer.request_camera)
 
         if (requestCode == REQUEST_VALUE && resultCode == Activity.RESULT_OK) {
-            Log.d("RESULT", data.toString())
+
+
             runForm().commitAllowingStateLoss()
         }
     }

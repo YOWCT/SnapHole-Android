@@ -4,4 +4,5 @@
   <!-- TODO: Remove or change this placeholder text -->
   <string name="hello_blank_fragment">Hello blank fragment</string>
   <string name="camera_button_text">Open Camera</string>
+  <string name="send_form_data">Send Report</string>
 </resources>
